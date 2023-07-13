@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(222, 233, 197);
+     background-repeat: no-repeat;
+     background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    border: 25px;
+    padding: 25px;
+
+}
+h1{
+    padding: 60px;
+    text-align: center;
+    text-decoration:underline;
+}
+button{
+    background-color:rgb(133, 226, 231);
+    padding: 8px;
+    border-radius: 3px;
+    border-color: rgb(0, 0, 0);
+}
+.a:hover{
+    background-color: rgb(228, 117, 104);
+    transform: translateY(-2px);
+}
+label{
+    text-shadow: 10px;
+}

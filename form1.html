@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="Survey CSS.css">
+</head>
+<body>
+    <form action="thank.html" target="_blank">
+        <h1><legend><strong><em>Survey Form</em></strong></legend></h1>
+        <fieldset>
+            <div class="n">
+            <label for="Name">Full Name:</label>
+            <input type="text" id="Name" placeholder="Nimesh" required><br><br>
+            <label for="Password">Password:</label>
+            <input type="password" id="Password" placeholder="********" required><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="demo@gmail.com" required><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Age" required><br><br>
+            <label for="Role">Which option best describe your Current Role ?</label>
+            <input type="text" id="Role" list="Role-list" placeholder="Student" required><br><br>
+            <datalist id="Role-list">
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="NTS">NTS</option>
+            </datalist>
+            <label for="recommend">How likely is that you would recommend <br> this course to a friend ?</label><br><br>
+            <label for="choice">
+                <input type="radio" name="choice" value="Definetly">
+               Definetly
+            </label><br><br>
+            <label for="choice">
+                <input type="radio" name="choice" value="May be">
+                May be
+            </label><br><br>
+            <label for="choice">
+                <input type="radio" name="choice" value="Not Sure">
+               Not Sure
+            </label><br><br>
+            <label for="like">What do you like the most in this course ?</label>
+            <input type="text" id="like" list="like-list" placeholder="Select an Option" required><br><br>
+            <datalist id="like-list">
+                <option value="Facilities">Facilities</option>
+                <option value="Teaching">Teaching</option>
+                <option value="Method">Method</option>
+            </datalist>
+            <label for="improve">Things that should be improved in the future ?<br> (Check all that apply)</label><br><br>
+                <input type="checkbox"><html>
+                <label>Front-End Projects</label><br><br>
+                <input type="checkbox">
+                <label>Back-End Projects</label><br><br>
+                <input type="checkbox">
+                <label>Data Visualisation</label><br><br>
+                <button type="submit" class="a">Submit</button>
+                <button type="reset" class="a">Reset Form</button>
+            </div>
+    </form>
+</body>
+</html>
